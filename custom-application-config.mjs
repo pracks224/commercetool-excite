@@ -13,7 +13,7 @@ const config = {
     },
     production: {
       applicationId: 'cmdmwtq0h002lzd016iuftz3i',
-      url: 'https://your_app_hostname.com',
+      url: 'https://commercetool-excite-f7afbkt65-prakash-sharmas-projects-acf52325.vercel.app/',
     },
   },
   oAuthScopes: {
