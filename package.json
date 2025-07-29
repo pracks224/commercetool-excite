@@ -15,8 +15,7 @@
     "lint": "jest --config jest.eslint.config.js",
     "format": "prettier --write '**/*.js'",
     "versions:appkit": "manypkg upgrade @commercetools-frontend",
-    "versions:uikit": "manypkg upgrade @commercetools-uikit",
-    "deploy": "gh-pages -d build"
+    "versions:uikit": "manypkg upgrade @commercetools-uikit"
   },
   "dependencies": {
     "@apollo/client": "3.12.4",
@@ -97,10 +96,5 @@
     "@types/react-router-dom": "<6",
     "headers-polyfill": "3.2.5",
     "nwsapi": "2.2.7"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
-  },
-  "homepage": "https://pracks224.github.io/commercetool-excite/"
-  
+  } 
 }
