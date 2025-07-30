@@ -86,24 +86,17 @@ const Welcome = () => {
           <Grid
             gridGap="16px"
             gridAutoColumns="1fr"
-            gridTemplateColumns="repeat(3, 1fr)"
+            gridTemplateColumns="repeat(2, 1fr)"
           >
-            <InfoCard
-              title={intl.formatMessage(messages.cardDocumentationTitle)}
-              content={intl.formatMessage(messages.cardDocumentationContent)}
-              linkTo="https://docs.commercetools.com/merchant-center-customizations/custom-applications"
-              isExternal
-            />
-            <InfoCard
-              title={intl.formatMessage(messages.cardDesignSystemTitle)}
-              content={intl.formatMessage(messages.cardDesignSystemContent)}
-              linkTo="https://uikit.commercetools.com"
-              isExternal
-            />
             <InfoCard
               title={intl.formatMessage(messages.cardChannelsTitle)}
               content={intl.formatMessage(messages.cardChannelsContent)}
               linkTo={`${match.url}/channels`}
+            />
+            <InfoCard
+             title={intl.formatMessage(messages.cardImportTitle)}
+             content={intl.formatMessage(messages.cardImportContent)}
+             linkTo={`${match.url}/import-custom-objects`}
             />
           </Grid>
         </Spacings.Stack>
