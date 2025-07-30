@@ -13,7 +13,7 @@ const config = {
     },
     production: {
       applicationId: 'cmdmwtq0h002lzd016iuftz3i',
-      url: 'https://master.d3pwujoh7kyir8.amplifyapp.com/',
+      url: 'https://master.d2bdiem5awq6vr.amplifyapp.com',
     },
   },
   oAuthScopes: {
