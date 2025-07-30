@@ -4,8 +4,8 @@ import { PERMISSIONS, entryPointUriPath } from './src/constants';
  * @type {import('@commercetools-frontend/application-config').ConfigOptionsForCustomApplication}
  */
 const config = {
-  name: 'Custom Xcite Dashboard',
-  entryPointUriPath: 'custom-xcite-dashboard',
+  name: 'Xcite Custom Dashboard',
+  entryPointUriPath: 'xcite-custom-dashboard',
   cloudIdentifier: 'gcp-eu',
   env: {
     development: {
