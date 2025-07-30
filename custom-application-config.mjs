@@ -5,7 +5,7 @@ import { PERMISSIONS, entryPointUriPath } from './src/constants';
  */
 const config = {
   name: 'Custom Xcite Dashboard',
-  entryPointUriPath,
+  entryPointUriPath: 'custom-xcite-dashboard',
   cloudIdentifier: 'gcp-eu',
   env: {
     development: {
@@ -13,7 +13,7 @@ const config = {
     },
     production: {
       applicationId: 'cmdmwtq0h002lzd016iuftz3i',
-      url: 'https://commercetool-excite-f7afbkt65-prakash-sharmas-projects-acf52325.vercel.app/',
+      url: 'https://master.d3pwujoh7kyir8.amplifyapp.com/',
     },
   },
   oAuthScopes: {
