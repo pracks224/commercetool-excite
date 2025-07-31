@@ -70,17 +70,6 @@ const Welcome = () => {
     <Constraints.Horizontal max={16}>
       <Spacings.Stack scale="xl">
         <Text.Headline as="h1" intlMessage={messages.title} />
-        <div>
-          <div className={styles.imageContainer}>
-            <img
-              alt="web developer"
-              src={WebDeveloperSvg}
-              width="100%"
-              height="100%"
-            />
-          </div>
-        </div>
-
         <Spacings.Stack scale="l">
           <Text.Subheadline as="h4" intlMessage={messages.subtitle} />
           <Grid
@@ -92,11 +81,6 @@ const Welcome = () => {
               title={intl.formatMessage(messages.cardChannelsTitle)}
               content={intl.formatMessage(messages.cardChannelsContent)}
               linkTo={`${match.url}/channels`}
-            />
-            <InfoCard
-             title={intl.formatMessage(messages.cardImportTitle)}
-             content={intl.formatMessage(messages.cardImportContent)}
-             linkTo={`${match.url}/import-custom-objects`}
             />
             <InfoCard
             title={intl.formatMessage(messages.cardImportTitle)}
