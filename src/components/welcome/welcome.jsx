@@ -98,6 +98,11 @@ const Welcome = () => {
              content={intl.formatMessage(messages.cardImportContent)}
              linkTo={`${match.url}/import-custom-objects`}
             />
+            <InfoCard
+            title={intl.formatMessage(messages.cardImportTitle)}
+            content={intl.formatMessage(messages.cardImportContent)}
+            linkTo={`${match.url}/import`}
+          />
           </Grid>
         </Spacings.Stack>
       </Spacings.Stack>

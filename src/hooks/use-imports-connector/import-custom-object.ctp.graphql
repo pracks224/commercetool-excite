@@ -1,0 +1,19 @@
+mutation ImportCustomObject(
+  $container: String!
+  $key: String!
+  $value: String!  # <-- expects string here
+) {
+  createOrUpdateCustomObject(
+    draft: {
+      container: $container
+      key: $key
+      value: $value  # <-- value is a string, not JSON
+    }
+  ) {
+    id
+    container
+    key
+    value
+    version
+  }
+}
